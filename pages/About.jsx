@@ -20,10 +20,12 @@ const About = () => {
                         <img src="/sign.png" alt="" />
                     </div>
                 </div>
-                <div className='lg:w-1/3 flex flex-col gap-4'>
-                    <img src="/image.png" alt="profile_pic" className='w-full'/>
-                    <h1 className='about tracking-wider text-xl font-black '> WANT TO CONNECT?</h1>
-                    <p> Email me at: info@mysite.com</p>
+                <div className='lg:w-1/3 flex flex-col gap-4 text-center lg:text-left'>
+                    <img src="/image.png" alt="profile_pic" className='w-full max-w-sm mx-auto lg:mx-0 lg:max-w-none'/>
+                    <div>
+                        <h1 className='about tracking-wider text-xl font-black '> WANT TO CONNECT?</h1>
+                        <p> Email me at: info@mysite.com</p>
+                    </div>
                 </div>
             </div>
         </div>
