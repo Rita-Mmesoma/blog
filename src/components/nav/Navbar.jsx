@@ -15,12 +15,12 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center bg-black/90 text-gray-400 px-3 h-[10vh]'>
 
-      <ul className='flex gap-2 items-center justify-center h-full'>
-        <li><Link className='hover:text-white'>HOME</Link></li>
+      <ul className='about flex gap-2 items-center justify-center h-full'>
+        <li><Link  to ="/"  className='hover:text-white'>HOME</Link></li>
         <p>|</p>
-        <li><Link className='hover:text-white'>BLOG</Link></li>
+        <li><Link  to ="/blog" className='hover:text-white'>BLOG</Link></li>
         <p>|</p>
-        <li><Link className='hover:text-white'>ABOUT</Link></li>
+        <li><Link  to ="/about" className='hover:text-white'> ABOUT</Link></li>
       </ul>
 
       <div className='flex justify-center items-center  h-full px-2 w-[40%]'>
