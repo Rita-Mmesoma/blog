@@ -4,7 +4,6 @@ import Navbar from './components/nav/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Blog from './pages/blog/Blog'
-import Footer from './components/footer/Footer'
 import { Toaster } from 'react-hot-toast'
 import BlogDetails from './pages/blog/BlogDetails'
 
@@ -19,7 +18,6 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/blog/:id" element={<BlogDetails />} />
       </Routes>
-      <Footer />
     </div>
   )
 }
