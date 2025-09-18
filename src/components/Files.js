@@ -1,0 +1,1 @@
+export const categories = ["Art & Culture", "Education", "Entertainment", "Environment & Sustainability", "Fashion & Beauty", "Finance & Business", "Food & Drink", "Health & Wellness", "Lifestyle", "Politics & Social Issues", "Programming & Development", "Science & Space", "Sports & Fitness", "Technology", "Travel & Leisure"]
